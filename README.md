@@ -1,2 +1,2 @@
 # prolaminsQuantification
-Processing multiple csv output files from high-reverse phase liquid chromatography
+Processing multiple csv output files from high-reverse phase liquid chromatography software for quantification of wheat prolamins.
