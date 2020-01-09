@@ -17,7 +17,7 @@ Sample name*, weight (mg)
 
 The command line for execute the script:
 
->python prolamins_area_to_excel.py <options>
+>python prolamins_area_to_excel.py \<options>
   
 Options:
 
@@ -29,7 +29,7 @@ Options:
 
 >-v | --volumen <volumen of extraction in microliters>
 
-  --debug <display debug comments, default False>
+>--debug <display debug comments, default False>
  
 All the options are required, except for -h and --debug ones.
  
