@@ -16,7 +16,8 @@ Sample name*, weight (mg)
 *The sample name has to be equal that ones in the other input files.
 
 The command line for execute the script:
-python prolamins_area_to_excel.py <options>
+
+  python prolamins_area_to_excel.py <options>
   
   Options:
 
