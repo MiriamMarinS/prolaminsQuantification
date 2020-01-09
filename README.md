@@ -17,17 +17,17 @@ Sample name*, weight (mg)
 
 The command line for execute the script:
 
-  python prolamins_area_to_excel.py <options>
+>python prolamins_area_to_excel.py <options>
   
-  Options:
+Options:
 
-  -h | --help <display arguments>
+>-h | --help <display arguments>
 
-  -m | --microgramo <units of the output data, 'mg' for micrograme of protein/miligrame of flour, 'grano' for micrograme of protein/grain>
+>-m | --microgramo <units of the output data, 'mg' for micrograme of protein/miligrame of flour, 'grano' for micrograme of protein/grain>
 
-  -d | --directory <path of the directory that contains csv files>
+>-d | --directory <path of the directory that contains csv files>
 
-  -v | --volumen <volumen of extraction in microliters>
+>-v | --volumen <volumen of extraction in microliters>
 
   --debug <display debug comments, default False>
  
