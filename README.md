@@ -23,13 +23,13 @@ Options:
 
 >-h | --help <display arguments>
 
->-m | --microgramo <units of the output data, 'mg' for micrograme of protein/miligrame of flour, 'grano' for micrograme of protein/grain>
+>-m | --microgramo \<units of the output data, 'mg' for micrograme of protein/miligrame of flour, 'grano' for micrograme of protein/grain>
 
->-d | --directory <path of the directory that contains csv files>
+>-d | --directory \<path of the directory that contains csv files>
 
->-v | --volumen <volumen of extraction in microliters>
+>-v | --volumen \<volumen of extraction in microliters>
 
->--debug <display debug comments, default False>
+>--debug \<display debug comments, default False>
  
 All the options are required, except for -h and --debug ones.
  
