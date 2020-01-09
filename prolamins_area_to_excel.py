@@ -53,10 +53,10 @@ def PreparaCsv(fichero):
 def Transformaciongliadinasmg(resultadogliadinas, Ve, Vi,peso):
     try:
 
-        resultadogliadinas['omega-gliadinas'] = 0.005*resultadogliadinas['omega-gliadinas']*(Ve/(Vi*peso))
-        resultadogliadinas['alfa-gliadinas'] = 0.005*resultadogliadinas['alfa-gliadinas']*(Ve/(Vi*peso))
-        resultadogliadinas['gamma-gliadinas'] = 0.005*resultadogliadinas['gamma-gliadinas']*(Ve/(Vi*peso))
-        resultadogliadinas['total gliadinas'] = 0.005*resultadogliadinas['total gliadinas']*(Ve/(Vi*peso))
+        resultadogliadinas['omega-gliadinas'] = 0.0005*resultadogliadinas['omega-gliadinas']*(Ve/(Vi*peso))
+        resultadogliadinas['alfa-gliadinas'] = 0.0005*resultadogliadinas['alfa-gliadinas']*(Ve/(Vi*peso))
+        resultadogliadinas['gamma-gliadinas'] = 0.0005*resultadogliadinas['gamma-gliadinas']*(Ve/(Vi*peso))
+        resultadogliadinas['total gliadinas'] = 0.0005*resultadogliadinas['total gliadinas']*(Ve/(Vi*peso))
     except Exception:
         print Exception
         print 'Se produjo un error en la transformacion de gliadinas'
@@ -65,10 +65,10 @@ def Transformaciongliadinasmg(resultadogliadinas, Ve, Vi,peso):
 
 def Transformaciongliadinasgrano(resultadogliadinas, Ve, Vi):
     try:
-        resultadogliadinas['omega-gliadinas'] = 0.005*resultadogliadinas['omega-gliadinas']*(Ve/Vi)
-        resultadogliadinas['alfa-gliadinas'] = 0.005*resultadogliadinas['alfa-gliadinas']*(Ve/Vi)
-        resultadogliadinas['gamma-gliadinas'] = 0.005*resultadogliadinas['gamma-gliadinas']*(Ve/Vi)
-        resultadogliadinas['total gliadinas'] = 0.005*resultadogliadinas['total gliadinas']*(Ve/Vi)
+        resultadogliadinas['omega-gliadinas'] = 0.0005*resultadogliadinas['omega-gliadinas']*(Ve/Vi)
+        resultadogliadinas['alfa-gliadinas'] = 0.0005*resultadogliadinas['alfa-gliadinas']*(Ve/Vi)
+        resultadogliadinas['gamma-gliadinas'] = 0.0005*resultadogliadinas['gamma-gliadinas']*(Ve/Vi)
+        resultadogliadinas['total gliadinas'] = 0.0005*resultadogliadinas['total gliadinas']*(Ve/Vi)
     except:
         print 'Se produjo un error en la transformacion de gliadinas'
     return resultadogliadinas
